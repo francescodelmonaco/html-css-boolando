@@ -201,6 +201,10 @@ main {
     padding: 10px;
 }
 
+.heart svg:hover {
+    fill: var(--color-red);
+}
+
 /* footer */
 footer {
     background-color: var(--color-black);
