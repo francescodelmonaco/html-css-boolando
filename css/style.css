@@ -55,7 +55,7 @@ header figure {
 /* main */
 main {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 
 .discount {
@@ -185,6 +185,11 @@ footer {
     font-size: 14px;
     height: 90px;
     padding: 20px;
+    
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
 }
 
 .footer-flex {
