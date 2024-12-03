@@ -27,7 +27,7 @@ header {
 
 .flex-row {
     display: flex;
-    gap: 5px;
+    gap: 10px;
 }
 
 ul a {
@@ -55,7 +55,7 @@ header figure {
 /* main */
 main {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .discount {
@@ -85,7 +85,7 @@ main {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 10px;
+    /* gap: 10px; */
 }
 
 .img-container {
@@ -173,7 +173,8 @@ main {
 .product-info {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 2px;
+    margin-top: 5px;
 }
 
 .product-name {
