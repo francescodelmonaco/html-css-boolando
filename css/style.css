@@ -30,7 +30,7 @@ header {
     gap: 5px;
 }
 
-header ul a {
+ul a {
     color: var(--color-white);
     font-size: 14px;
 }
@@ -52,3 +52,34 @@ header figure {
     justify-content: center;
 }
 
+/* main */
+main {
+    padding-top: 100px;
+}
+main div div {
+    background-color: #050647;
+    border: 1px solid greenyellow;
+    height: 200px;
+    flex-basis: calc(100% / 3);
+    flex-grow: 6;
+}
+
+.main-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer */
+footer {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-size: 14px;
+    height: 90px;
+    padding: 20px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
