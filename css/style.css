@@ -85,6 +85,8 @@ main {
 .main-flex {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .img-container {
@@ -92,8 +94,48 @@ main {
     position: relative;
 }
 
-.photo {
+.photo-1 {
     background-image: url(../img/1.webp);
+    height: 520px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo-2 {
+    background-image: url(../img/2.webp);
+    height: 520px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo-3 {
+    background-image: url(../img/3.webp);
+    height: 520px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo-4 {
+    background-image: url(../img/4.webp);
+    height: 520px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo-5 {
+    background-image: url(../img/5.webp);
+    height: 520px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo-6 {
+    background-image: url(../img/6.webp);
     height: 520px;
     background-position: center;
     background-repeat: no-repeat;
