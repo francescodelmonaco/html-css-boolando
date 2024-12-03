@@ -44,7 +44,7 @@ ul a {
 
 div > svg {
     fill: var(--color-white);
-    height: 14px;   
+    height: 20px;   
 }
 
 header figure {
@@ -55,18 +55,85 @@ header figure {
 /* main */
 main {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
-main div div {
-    background-color: #050647;
+
+.discount {
+    color: var(--color-white);
+    background-color: var(--color-red);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sustainability {
+    color: var(--color-white);
+    background-color: var(--color-green);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container {
     border: 1px solid greenyellow;
-    height: 200px;
-    flex-basis: calc(100% / 3);
-    flex-grow: 6;
+    height: 600px;
+    flex-basis: calc(100% / 3 - 10px);
 }
 
 .main-flex {
     display: flex;
     justify-content: space-between;
+}
+
+.img-container {
+    height: 520px;
+    position: relative;
+}
+
+.photo {
+    background-image: url(../img/1.webp);
+    height: 520px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.outlet {
+    position: absolute;
+    bottom: 50px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.product-name {
+    text-transform: uppercase;
+}
+
+.new-price {
+    color: var(--color-red)
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.heart svg {
+    fill: var(--color-black);
+    height: 40px;
+    background-color: var(--color-white);
+    padding: 10px;
 }
 
 /* footer */
