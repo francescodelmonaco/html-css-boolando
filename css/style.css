@@ -77,7 +77,6 @@ main {
 }
 
 .container {
-    height: 700px;
     flex-basis: calc(100% / 3 - 10px);
 }
 
@@ -85,84 +84,99 @@ main {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* gap: 10px; */
+    gap: 10px;
 }
 
 .img-container {
-    height: 620px;
     position: relative;
-}
 
-.photo-1 {
-    background-image: url(../img/1.webp);
-    height: 620px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.photo-1:hover {
-    background-image: url(../img/1b.webp);
+.photo-1b {
+    display: none;
 }
 
-.photo-2 {
-    background-image: url(../img/2.webp);
-    height: 620px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+figure:hover .photo-1 {
+    cursor: pointer;
+    display: none;
 }
 
-.photo-2:hover {
-    background-image: url(../img/2b.webp);
+figure:hover .photo-1b {
+    cursor: pointer;
+    display: block;
 }
 
-.photo-3 {
-    background-image: url(../img/3.webp);
-    height: 620px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.photo-2b {
+    display: none;
 }
 
-.photo-3:hover {
-    background-image: url(../img/3b.webp);
+figure:hover .photo-2 {
+    cursor: pointer;
+    display: none;
 }
 
-.photo-4 {
-    background-image: url(../img/4.webp);
-    height: 620px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+figure:hover .photo-2b {
+    cursor: pointer;
+    display: block;
 }
 
-.photo-4:hover {
-    background-image: url(../img/4b.webp);
+.photo-3b {
+    display: none;
 }
 
-.photo-5 {
-    background-image: url(../img/5.webp);
-    height: 620px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+figure:hover .photo-3 {
+    cursor: pointer;
+    display: none;
 }
 
-.photo-5:hover {
-    background-image: url(../img/5b.webp);
+figure:hover .photo-3b {
+    cursor: pointer;
+    display: block;
 }
 
-.photo-6 {
-    background-image: url(../img/6.webp);
-    height: 620px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.photo-4b {
+    display: none;
 }
 
-.photo-6:hover {
-    background-image: url(../img/6b.webp);
+figure:hover .photo-4 {
+    cursor: pointer;
+    display: none;
+}
+
+figure:hover .photo-4b {
+    cursor: pointer;
+    display: block;
+}
+
+.photo-5b {
+    display: none;
+}
+
+figure:hover .photo-5 {
+    cursor: pointer;
+    display: none;
+}
+
+figure:hover .photo-5b {
+    cursor: pointer;
+    display: block;
+}
+
+.photo-6b {
+    display: none;
+}
+
+figure:hover .photo-6 {
+    cursor: pointer;
+    display: none;
+}
+
+figure:hover .photo-6b {
+    cursor: pointer;
+    display: block;
 }
 
 .outlet {
